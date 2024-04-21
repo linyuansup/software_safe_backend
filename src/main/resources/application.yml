@@ -49,7 +49,7 @@ spring:
     # 更多用法，参考官方文档：https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE-wallfilter
   data:
     redis:
-      host: 172.17.0.5
+      host: 127.0.0.1
       port: 6379
       password:
       timeout: 6000

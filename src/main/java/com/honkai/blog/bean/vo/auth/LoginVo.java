@@ -12,4 +12,10 @@ public class LoginVo {
 
     @Schema(description = "密码")
     private String password;
+
+    @Schema(description = "验证码")
+    private String verify;
+
+    @Schema(description = "验证码key")
+    private String key;
 }

@@ -15,4 +15,10 @@ public class RegisterVo {
 
     @Schema(description = "名称")
     private String name;
+
+    @Schema(description = "验证码")
+    private String verify;
+
+    @Schema(description = "验证码key")
+    private String key;
 }
